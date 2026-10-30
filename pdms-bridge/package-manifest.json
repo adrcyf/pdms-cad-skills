@@ -1,0 +1,186 @@
+{
+  "package": "pdms-cad-piping-skills",
+  "version": "0.4.0",
+  "date": "2026-10-30",
+  "pdms_compatibility": "12.1 SP4 / des.exe 12.1.4.0 / x86 .NET 2 adapter",
+  "python": "3.11+; normally supplied by Codex desktop",
+  "cad": "Live COM: registered AutoCAD on Windows. Optional file fallback: ezdxf; previews: matplotlib.",
+  "entry": "pdms-bridge/pdms.cmd (prepare, then manually run the printed PDMS macro once)",
+  "files": [
+    {
+      "path": "pdms-bridge/pdms.cmd",
+      "bytes": 72,
+      "sha256": "98ce8dfd7cc6a25f3926a20016df4ea8a5e90d19910f22b25a3fd9b7b9df6263"
+    },
+    {
+      "path": "pdms-bridge/references/agent-workflow.md",
+      "bytes": 1670,
+      "sha256": "ef63c72b7b0c83c5311ef5159e1730c33f09d1568755be4885003ef3d3e89072"
+    },
+    {
+      "path": "pdms-bridge/references/cad-reading.md",
+      "bytes": 5542,
+      "sha256": "86a3203aba9e2e6feeba621b647831393a6e6476edb67e0c0826efb685bb3965"
+    },
+    {
+      "path": "pdms-bridge/references/connection.md",
+      "bytes": 3423,
+      "sha256": "080a411cd2b736ed73c7508a89c306b5c2ca789ca6ae8a2531cc4dcaad3cc05d"
+    },
+    {
+      "path": "pdms-bridge/scripts/bridge_client.py",
+      "bytes": 18723,
+      "sha256": "010597c5deade43d224193f2d82064491bd8fd8be843846beef7497afa6e5d56"
+    },
+    {
+      "path": "pdms-bridge/scripts/build.ps1",
+      "bytes": 684,
+      "sha256": "14b6b7f77827d7172a9758afdb8913c07ac56917b576b0f946dd2a9716bedbfe"
+    },
+    {
+      "path": "pdms-bridge/scripts/cad_active.py",
+      "bytes": 2657,
+      "sha256": "5ff3145ec06a04bb19ff300a4a6185fb5316c1d9d4e5b23468c3448a07db7c95"
+    },
+    {
+      "path": "pdms-bridge/scripts/cad_reader.py",
+      "bytes": 16284,
+      "sha256": "ff1554fe3c3691dcde1362619679e0288ce3af7eb1f2e3eae0017728acd0ef3a"
+    },
+    {
+      "path": "pdms-bridge/scripts/cad_worker.py",
+      "bytes": 1428,
+      "sha256": "b67ae3f83b00e61c45f811e122e5194d6d2f16dc3f6dce1fe48a52c3e9c4e208"
+    },
+    {
+      "path": "pdms-bridge/scripts/CJPDMSBridge.cs",
+      "bytes": 5421,
+      "sha256": "3b179bda2bc048fda575bd53d8e7dd292963a7fa2cc9d931968e7f2e116f644b"
+    },
+    {
+      "path": "pdms-bridge/scripts/CJPDMSBridgeV2.dll",
+      "bytes": 9216,
+      "sha256": "7dc9388757f6031e7cb9bb1ac5662dee1e067ae8512ce9ad5946ebac13cb42ed"
+    },
+    {
+      "path": "pdms-bridge/scripts/configure_mcp.py",
+      "bytes": 2978,
+      "sha256": "863d63ce199c2417554dc16238a1e4a4f901fa39a09c66f08de1de2b258626d9"
+    },
+    {
+      "path": "pdms-bridge/scripts/deploy.ps1",
+      "bytes": 3028,
+      "sha256": "103b60448d12c1524a20133d9971557a7196315f442ab4ae06bbdfcfe249450c"
+    },
+    {
+      "path": "pdms-bridge/scripts/ensure-cad-open.ps1",
+      "bytes": 2319,
+      "sha256": "bd26c442e35e2abb8896719962bc0080cd395a46561a36e276a03bc6a4a18cbe"
+    },
+    {
+      "path": "pdms-bridge/scripts/inspect-cleanup.ps1",
+      "bytes": 1164,
+      "sha256": "9c7d59000957b3f1f2d944f594fcd97f2786fe03aadc477556e80f929ef2174a"
+    },
+    {
+      "path": "pdms-bridge/scripts/maintenance.py",
+      "bytes": 6015,
+      "sha256": "b51f0ec18c899bbc40b87fa71ff4abdcd81ff3b4777921d3865f48b8080d2989"
+    },
+    {
+      "path": "pdms-bridge/scripts/mcp_server.py",
+      "bytes": 9834,
+      "sha256": "d428ec2c2c29996dec58d8c931b7eae770bb401530afa4144e7672ae4273368f"
+    },
+    {
+      "path": "pdms-bridge/scripts/package_skills.py",
+      "bytes": 3042,
+      "sha256": "023e52e53a9c0b1229184f09960bcc8fcf493a9d29190df48af32be0b4179bd6"
+    },
+    {
+      "path": "pdms-bridge/scripts/prepare.ps1",
+      "bytes": 2273,
+      "sha256": "ecbbc2277a920cc8b485fa05e17d4f649eb726ebb91360ba338aa7b8b3f956db"
+    },
+    {
+      "path": "pdms-bridge/scripts/process_lifecycle.py",
+      "bytes": 9998,
+      "sha256": "a54bd505ba8bc51d804f71f1961df9840854b77ce345d2e1dc154655f7658d3f"
+    },
+    {
+      "path": "pdms-bridge/scripts/read-active-cad.ps1",
+      "bytes": 6212,
+      "sha256": "afb0a2ccfcc159b46505b16f87f5050680a002751f90f172b8b85064c7ba500a"
+    },
+    {
+      "path": "pdms-bridge/scripts/remove-cleanup.ps1",
+      "bytes": 880,
+      "sha256": "310af230f9feacbccc7e79bf69800fca1f166d0c2f5a62593c4972071d6e0e6e"
+    },
+    {
+      "path": "pdms-bridge/scripts/show-load-command.ps1",
+      "bytes": 1179,
+      "sha256": "d11c5017d5efcbdabd7bf95a43f75f2309c243add1db783974e5dbd6377b3560"
+    },
+    {
+      "path": "pdms-bridge/scripts/start.ps1",
+      "bytes": 1936,
+      "sha256": "752d87b1d7f4aee54eb9a779f1e3b3173e61ff333a8b3707fce4acc366a53be6"
+    },
+    {
+      "path": "pdms-bridge/scripts/test_bridge.py",
+      "bytes": 8661,
+      "sha256": "37e91e26a6062ccac2d51060c6003b092d301b5cef4f18a30c545e2fff868fec"
+    },
+    {
+      "path": "pdms-bridge/scripts/test_cad_reader.py",
+      "bytes": 1882,
+      "sha256": "934744b19e12593f5b3be49db32f221fbfaa896b5c8e4d750890c0055c1f6ce8"
+    },
+    {
+      "path": "pdms-bridge/scripts/test_lifecycle.py",
+      "bytes": 8782,
+      "sha256": "745474db36e4acb85eea22b33c140615f2e06572482076b67e0f0f25750270ed"
+    },
+    {
+      "path": "pdms-bridge/SKILL.md",
+      "bytes": 9093,
+      "sha256": "05ca271ffcfd325a7b2c6a98ce14747621b2e4b1b4ad0cbd54ef82282f3b7a1b"
+    },
+    {
+      "path": "pdms-cad-modeling/agents/openai.yaml",
+      "bytes": 381,
+      "sha256": "31c61655fa3bd4bf840c5e3925f96c3cb4e8509e3e9cbb1b86a3f7e82ad3fc34"
+    },
+    {
+      "path": "pdms-cad-modeling/references/delivery-and-review.md",
+      "bytes": 4344,
+      "sha256": "c95cc678e04a9ebd5cb25f10f45f35f5ef29e4c1b89e96546dd763cfa8229a49"
+    },
+    {
+      "path": "pdms-cad-modeling/references/windows-pdms-notes.md",
+      "bytes": 2882,
+      "sha256": "61be38db0375aefdae40529ec7ca66c1b9fe277f7ca797ec3c0d20869eec137e"
+    },
+    {
+      "path": "pdms-cad-modeling/SKILL.md",
+      "bytes": 10337,
+      "sha256": "5abb6470f95d753168ade3aa85fa5c3988b15aa9cb8ce59b83004008e2f96b81"
+    },
+    {
+      "path": "pdms-piping/agents/openai.yaml",
+      "bytes": 333,
+      "sha256": "395f23a3ae4cd6f29f47a21c24f52725807daf7af96907e72133848afe0903e2"
+    },
+    {
+      "path": "pdms-piping/references/commands-and-pitfalls.md",
+      "bytes": 8756,
+      "sha256": "6f3f07b44a811bbf6676a4052a8a4fb6f73ef6a4d1e606b15fbe8cb7eb4cc8b8"
+    },
+    {
+      "path": "pdms-piping/SKILL.md",
+      "bytes": 9746,
+      "sha256": "ca00a978c8df79c876cbe25323149a872d56ebb137592c3cfed8a2044336c415"
+    }
+  ]
+}

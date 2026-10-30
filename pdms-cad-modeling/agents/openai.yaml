@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDMS设备建模与CAD核查"
+  short_description: "依据原始CAD建模，逐口核对位置、规格大小和接口形式，报告差异并核验原生模型"
+  default_prompt: "使用 $pdms-cad-modeling，根据原始CAD完成设备建模或逐步教学，逐口对照俯视与立面，核对位置、规格大小和接口形式并报告差异。"
