@@ -1,7 +1,7 @@
 {
   "package": "pdms-cad-piping-skills",
-  "version": "0.4.0",
-  "date": "2026-10-30",
+  "version": "0.4.1",
+  "date": "2026-10-31",
   "pdms_compatibility": "12.1 SP4 / des.exe 12.1.4.0 / x86 .NET 2 adapter",
   "python": "3.11+; normally supplied by Codex desktop",
   "cad": "Live COM: registered AutoCAD on Windows. Optional file fallback: ezdxf; previews: matplotlib.",
@@ -94,8 +94,8 @@
     },
     {
       "path": "pdms-bridge/scripts/package_skills.py",
-      "bytes": 3042,
-      "sha256": "023e52e53a9c0b1229184f09960bcc8fcf493a9d29190df48af32be0b4179bd6"
+      "bytes": 3100,
+      "sha256": "f47019195f536fc122a95d1dd94e8a7f2954297ccb74290ecb2b86219fc2c735"
     },
     {
       "path": "pdms-bridge/scripts/prepare.ps1",
@@ -178,9 +178,14 @@
       "sha256": "6f3f07b44a811bbf6676a4052a8a4fb6f73ef6a4d1e606b15fbe8cb7eb4cc8b8"
     },
     {
+      "path": "pdms-piping/references/routing-planning.md",
+      "bytes": 9633,
+      "sha256": "12b3b6a17109c9091418e2047c1b3645904777d0aefdc1b6ffc29e5b8419f128"
+    },
+    {
       "path": "pdms-piping/SKILL.md",
-      "bytes": 9746,
-      "sha256": "ca00a978c8df79c876cbe25323149a872d56ebb137592c3cfed8a2044336c415"
+      "bytes": 10832,
+      "sha256": "22740fa3b707ecf453bbfb1a3ac4d3786a656f561640c52a554ef60dec58182f"
     }
   ]
 }

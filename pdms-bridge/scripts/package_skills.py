@@ -30,7 +30,7 @@ def main():
             files.append(path)
     records = [{'path': str(path.relative_to(base)).replace('\\','/'), 'bytes': path.stat().st_size,
                 'sha256': hashlib.sha256(path.read_bytes()).hexdigest()} for path in sorted(files)]
-    manifest = {'package': 'pdms-cad-piping-skills', 'version': '0.4.0', 'date': datetime.datetime.now().strftime('%Y-%m-%d'),
+    manifest = {'package': 'pdms-cad-piping-skills', 'version': '0.4.1', 'date': datetime.datetime.now().strftime('%Y-%m-%d'),
                 'pdms_compatibility': '12.1 SP4 / des.exe 12.1.4.0 / x86 .NET 2 adapter',
                 'python': '3.11+; normally supplied by Codex desktop',
                 'cad': 'Live COM: registered AutoCAD on Windows. Optional file fallback: ezdxf; previews: matplotlib.',
